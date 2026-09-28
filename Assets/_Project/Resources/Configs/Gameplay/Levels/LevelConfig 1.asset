@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f727fda567f04d53beeeef45a0c098c, type: 3}
+  m_Name: LevelConfig 1
+  m_EditorClassIdentifier: 
+  <WinCondition>k__BackingField: 0
+  <DefeatCondition>k__BackingField: 2
+  <TimeToWin>k__BackingField: 60
+  <DestroyedEnemiesCountToWin>k__BackingField: 10
+  <EnemiesCountToDefeat>k__BackingField: 10
+  <MainHeroSpawnPoint>k__BackingField: {x: 0, y: 0, z: 0}
+  <EnemyConfigs>k__BackingField:
+  - {fileID: 11400000, guid: fe03ed0ad456a4a86b3dfea3dd2fc2b8, type: 2}
+  _enemiesSpawnPoints:
+  - {x: -15, y: 0, z: -15}
+  - {x: 15, y: 0, z: 15}
+  - {x: -15, y: 0, z: 15}
+  - {x: 15, y: 0, z: -15}
+  <EnemiesRadiusSpawn>k__BackingField: 10
+  <EnemiesCount>k__BackingField: 5
+  <EnemiesSpawnInterval>k__BackingField: 5
+  <EnviromentSceneName>k__BackingField: Scene_1
